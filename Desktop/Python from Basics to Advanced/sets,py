@@ -1,0 +1,6 @@
+nums = {1, 2, 3, 3, 2}
+print("Set (duplicates removed):", nums)
+
+nums.add(4)
+nums.discard(1)
+print("Updated set:", nums)
